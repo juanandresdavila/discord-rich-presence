@@ -5,7 +5,7 @@ Citizen.CreateThread(function()
         local player = GetPlayerPed(-1)
         Citizen.Wait(5*1000)
 
-        SetDiscordAppId(800064162415378432) -- Replace 0 with your application client id.
+        SetDiscordAppId(0) -- Replace 0 with your application client id.
 
         -- Where the player is located
         SetRichPresece( GetPlayerName(source).. "en la calle".. GetStreetNameFromHashKey( table_unpack ( GetEntityCoords(player) )) )
