@@ -8,7 +8,7 @@ Citizen.CreateThread(function()
         SetDiscordAppId(0) -- Replace 0 with your application client id.
 
         -- Where the player is located
-        SetRichPresece( GetPlayerName(source).. "en la calle".. GetStreetNameFromHashKey( table_unpack ( GetEntityCoords(player) )) )
+        SetRichPresece( GetPlayerName(source).. "en la calle".. GetStreetNameFromHashKey( table.unpack ( GetEntityCoords(player) )) )
 
         
         SetDiscordRichPresenceAsset("logo") -- The name of the big picture you added in the application.
