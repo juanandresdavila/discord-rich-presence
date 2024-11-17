@@ -29,3 +29,7 @@ git clone https://github.com/ZAD4YTV/discord-rich-presence [local]/discord-rich-
 
 - GNU License GPL V3.0
 - Read the license in this URL: <https://github.com/ZAD4YTV/discord-rich-presence/blob/main/LICENSE>
+
+## Disclaimer
+
+This proyect is archived, as I stopped coding in Lua. 
